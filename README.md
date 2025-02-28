@@ -1,39 +1,33 @@
-# vue-dashboard
+# Requirements
 
-This template should help get you started developing with Vue 3 in Vite.
+Node.js:
 
-## Recommended IDE Setup
+- 18.18.0 or newer (within the 18.x version range)
+- 19.8.0 or newer (within the 19.x version range)
+- Any version 20.0.0 or higher
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+# Installation
 
-## Type Support for `.vue` Imports in TS
+## Clone the repository
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+```
+git clone git@github.com:irfansyahph/vue-dashboard.git
+```
 
-## Customize configuration
+## Navigate into the project directory
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+```
+cd vue-dashboard
+```
 
-## Project Setup
+## Install dependencies
 
-```sh
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+# Running the Development Server
 
-```sh
+```
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
